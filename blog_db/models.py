@@ -5,3 +5,4 @@ class Blog(models.Model):
     image1 = models.ImageField(null=True, blank=True)
     image2 = models.ImageField(null=True, blank=True)
     image3 = models.ImageField(null=True, blank=True)
+    date = models.DateTimeField(auto_now_add=True)
